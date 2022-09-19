@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git checkout') {
            steps{
-                git branch: 'main', credentialsId: 'Github', url: 'https://github.com/nourahkareemalanazi/sdachat.git'
+                git branch: 'master', credentialsId: 'Github', url: 'https://github.com/nourahkareemalanazi/sdachat.git'
             }
         }
         
