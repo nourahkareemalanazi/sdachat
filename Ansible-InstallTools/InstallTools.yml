@@ -3,6 +3,6 @@
   hosts: Install
   tasks:
      - name: Transfer executable script script
-       copy: src=./docker-awcli-jenkins.sh dest=/home/ubuntu mode=0777
+       copy: src=./docker-awcli-jenkins.sh dest=/home/ubuntu mode=755
      - name: Execute the script
        command: /home/ubuntu/docker-awcli-jenkins.sh
