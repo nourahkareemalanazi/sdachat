@@ -28,7 +28,7 @@ resource "aws_cloudfront_distribution" "Elastic_beanstalk" {
 
   enabled             = true
   is_ipv6_enabled     = true
-  comment             = "CloudFront For Elastic BeansTalk Load Blancer"
+  comment             = "CloudFront For Elastic BeansTalk with Application Load Blancer"
   default_root_object = "index.html"
 
     
